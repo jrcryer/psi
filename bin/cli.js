@@ -17,7 +17,7 @@ function printHelp() {
   console.log('');
   console.log('Optional, supply other arguments.');
   console.log('See https://developers.google.com/speed/docs/insights/v1/getting_started for description');
-  console.log('  $ psi <url> --key=<key> --prettyprint=<true> --userIp=<userIp> --locale=<locale> --strategy=<desktop|mobile>');
+  console.log('  $ psi <url> --key=<key> --prettyprint=<true> --userIp=<userIp> --locale=<locale> --strategy=<desktop|mobile> --format=<cli|json|tap>');
 }
 
 if (!query || process.argv.indexOf('-h') !== -1 || process.argv.indexOf('--help') !== -1) {
@@ -63,6 +63,10 @@ if(argv.locale){
 
 if(argv.strategy){
   opts.strategy = argv.strategy;
+}
+
+if(argv.format){
+  opts.format = argv.format;
 }
 
 insights(opts);

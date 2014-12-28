@@ -1,0 +1,27 @@
+{ overview: 
+   { 'URL:': 'http://www.html5rocks.com/en/',
+     'Score:': 91,
+     'Strategy:': 'desktop' },
+  statistics: 
+   { 'Number Resources': 27,
+     'Number Hosts': 6,
+     'Total Request': '3.11 kB',
+     'Number Static Resources': 17,
+     'Html Response': '18.54 kB',
+     'Css Response': '54 kB',
+     'Image Response': '151.82 kB',
+     'Javascript Response': '69.77 kB',
+     'Other Response': '104.54 kB',
+     'Number Js Resources': 3,
+     'Number Css Resources': 2 },
+  ruleResults: 
+   { 'Avoid Landing Page Redirects': 0,
+     'Enable Gzip Compression': 0,
+     'Leverage Browser Caching': 1,
+     'Main Resource Server Response Time': 0.91,
+     'Minify Css': 0,
+     'Minify HTML': 0.09,
+     'Minify Java Script': 0,
+     'Minimize Render Blocking Resources': 6,
+     'Optimize Images': 0.66,
+     'Prioritize Visible Content': 0 } }
